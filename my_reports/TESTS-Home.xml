@@ -1,0 +1,18 @@
+<testsuite name="Home.HomePage" tests="1" errors="0" failures="0" skipped="0" time="1.747839" timestamp="2024-03-25T15:12:36.022315" hostname="DESKTOP-3SBP139"><testcase classname="Home.HomePage" name="Submit form To register for Protractor tutorial." status="passed" time="1.747839"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Submit form To register for Protractor tutorial.
+    Given user enter the "name" ... passed in 0.604s
+    When enter the "email" ... passed in 0.186s
+    And enter the "Password" ... passed in 0.160s
+    And select the checkbox ... passed in 0.099s
+    And Select the "gender_type" ... passed in 0.124s
+    And Select the Employment_status ... passed in 0.138s
+    And enter the "date_of_birth" ... passed in 0.158s
+    And click on Submit button ... passed in 0.172s
+    Then verify the "success_message" displayed on screen ... passed in 0.109s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

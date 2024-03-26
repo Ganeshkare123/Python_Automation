@@ -1,0 +1,152 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/Home.feature:4",
+      "name": "Submit form To register for Protractor tutorial.",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/Home.feature:6",
+          "match": {
+            "arguments": [
+              {
+                "name": "name",
+                "value": "name"
+              }
+            ],
+            "location": "features/steps/Home_Test.py:6"
+          },
+          "name": "user enter the \"name\"",
+          "result": {
+            "duration": 0.25627899169921875,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/Home.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/Home_Test.py:11"
+          },
+          "name": "enter the \"email\"",
+          "result": {
+            "duration": 0.14660882949829102,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/Home.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/Home_Test.py:16"
+          },
+          "name": "enter the \"Password\"",
+          "result": {
+            "duration": 0.11270475387573242,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/Home.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/Home_Test.py:21"
+          },
+          "name": "select the checkbox",
+          "result": {
+            "duration": 0.07379579544067383,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/Home.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/Home_Test.py:26"
+          },
+          "name": "Select the \"gender_type\"",
+          "result": {
+            "duration": 0.09075760841369629,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/Home.feature:11",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/Home_Test.py:31"
+          },
+          "name": "Select the Employment_status",
+          "result": {
+            "duration": 0.11968135833740234,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/Home.feature:12",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/Home_Test.py:36"
+          },
+          "name": "enter the \"date_of_birth\"",
+          "result": {
+            "duration": 0.10970616340637207,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/Home.feature:13",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/Home_Test.py:41"
+          },
+          "name": "click on Submit button",
+          "result": {
+            "duration": 0.11868405342102051,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/Home.feature:14",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/Home_Test.py:46"
+          },
+          "name": "verify the \"success_message\" displayed on screen",
+          "result": {
+            "duration": 0.08975887298583984,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/Home.feature:1",
+  "name": "HomePage",
+  "status": "passed",
+  "tags": []
+}
+]
